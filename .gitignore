@@ -1,0 +1,7 @@
+**/__pycache__/
+**/migrations/
+db.sqlite3
+
+svelte/node_modules/
+svelte/package-lock.json
+svelte/public/build/
