@@ -2,6 +2,6 @@
 **/migrations/
 db.sqlite3
 
-svelte/node_modules/
-svelte/package-lock.json
-svelte/public/build/
+svelte_frontend/node_modules/
+svelte_frontend/package-lock.json
+svelte_frontend/public/build/

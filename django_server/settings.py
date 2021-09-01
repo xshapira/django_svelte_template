@@ -121,7 +121,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATICFILES_DIRS = [BASE_DIR / 'svelte' / 'public']
+STATICFILES_DIRS = [BASE_DIR / 'svelte_frontend' / 'public']
 
 STATICFILES_FINDERS = [
     'django.contrib.staticfiles.finders.FileSystemFinder'
