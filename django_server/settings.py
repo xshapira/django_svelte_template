@@ -56,7 +56,7 @@ ROOT_URLCONF = 'django_server.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'template'],
+        'DIRS': [BASE_DIR / 'svelte_frontend' / 'template'],
         'APP_DIRS': False,
         'OPTIONS': {
             'context_processors': [
