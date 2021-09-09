@@ -4,6 +4,8 @@ This repository is a simple configuration of a Django project combined with a Sv
 
 This repository is based on the basic Django project structure that is created by running the `django-admin startproject django_server` command (if you are unfamiliar with Django please have a look at the Django website first: https://www.djangoproject.com/ and follow their excellent tutorial). Next to this, it is based on the Svelte project template as found here: https://github.com/sveltejs/template. If you are unfamiliar with Svelte, please also first have a look at their website: https://svelte.dev/ and follow their equally excellent tutorial.
 
+Please note that I have adapted both the basic Django project structure and the Svelte template in order to provide a template that links them together. These changes are entirely my own and are not supported by the developers of Django, Svelte, and the Svelte template I linked to in the previous section or by anybody else.
+
 # Quickstart
 
 Note: before you get started, you need to have Node.js and Python installed on your computer.
