@@ -6,6 +6,8 @@ This repository is based on the basic Django project structure that is created b
 
 Please note that I have adapted both the basic Django project structure and the Svelte template in order to provide a template that connects them together. These changes are entirely my own and are not supported by the developers of Django, Svelte, or the Svelte template I linked to in the previous paragraph or by anybody else.
 
+Note: this code is only tested with Python 3.9
+
 # Quickstart
 
 Note: before you get started, you need to have Node.js and Python installed on your computer.
