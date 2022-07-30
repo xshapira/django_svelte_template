@@ -25,9 +25,8 @@ def another_page(request):
 
 
 def json_endpoint(request):
-    if request.method == 'POST':
-        post_data = json.loads(request.body)
-        print(post_data)
-        return JsonResponse({'status': 'received data correctly!'})
-    else:
+    if request.method != 'POST':
         return JsonResponse({'error': 'only post requests allowed'})
+    post_data = json.loads(request.body)
+    print(post_data)
+    return JsonResponse({'status': 'received data correctly!'})
